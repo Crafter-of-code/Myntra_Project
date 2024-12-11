@@ -1,8 +1,11 @@
 .header {
   display: flex;
   min-height: 80px;
+  width: 100vw;
+  position: fixed;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
 }
 
 .bg_image {
@@ -22,19 +25,50 @@
 .nav_container {
   position: relative;
   flex-grow: 3;
+  height: 80px;
 }
 .navbar {
-  height: fit-content;
+  height: 100%;
   width: fit-content;
   min-width: 523px;
+  /* width: fit-content; */
   margin: 0px 02vw 0px 04vw;
 }
 .navbar ul {
+  height: 100%;
   display: flex;
 }
 .navbar ul li {
+  height: inherit;
   list-style: none;
+  display: flex;
+  align-items: center;
   box-sizing: border-box;
+  color: #282c3f;
+}
+.nav_container ul li:nth-child(1):hover {
+  border-bottom: 4px solid #ee5f73;
+  padding-top: 4px;
+}
+.nav_container ul li:nth-child(2):hover {
+  padding-top: 4px;
+  border-bottom: 4px solid #fb56c1;
+}
+.nav_container ul li:nth-child(3):hover {
+  padding-top: 4px;
+  border-bottom: 4px solid #f26a10;
+}
+.nav_container ul li:nth-child(4):hover {
+  padding-top: 4px;
+  border-bottom: 4px solid #f2c210;
+}
+.nav_container ul li:nth-child(5):hover {
+  padding-top: 4px;
+  border-bottom: 4px solid #0db7af;
+}
+.nav_container ul li:nth-child(6):hover {
+  padding-top: 4px;
+  border-bottom: 4px solid #ff3f6c;
 }
 .navbar ul li a {
   /* padding: 0px 17px 28px; */
@@ -43,6 +77,7 @@
   color: #282c3f;
   font-weight: 700;
   font-size: 14px;
+  color: inherit;
 }
 .navbar ul li a sup {
   font-size: 80%;
@@ -71,7 +106,7 @@
 .search_section img {
   height: 14.7px;
   width: 14.7px;
-  padding: 0px 10px;
+  padding: 0px 20px;
   user-select: none;
   -webkit-user-drag: none;
 }

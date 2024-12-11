@@ -6,7 +6,7 @@ function NavBar() {
       <nav className={styles.navbar}>
         <ul>
           <li>
-            <a href="#">MEM</a>
+            <a href="#">MEN</a>
           </li>
           <li>
             <a href="#">WOMEN</a>

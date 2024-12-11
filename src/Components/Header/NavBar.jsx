@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./CSS/Header.module.css";
+import styles from "../CSS/Header.module.css";
 function NavBar() {
   return (
-    <>
+    <div className={styles.nav_container}>
       <nav className={styles.navbar}>
         <ul>
           <li>
@@ -27,7 +27,7 @@ function NavBar() {
           </li>
         </ul>
       </nav>
-    </>
+    </div>
   );
 }
 export default NavBar;

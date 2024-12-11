@@ -1,10 +1,15 @@
 import React from "react";
-import styles from "./CSS/Header.module.css";
+import styles from "../CSS/Header.module.css";
+// import {
+//   Bag,
+//   User_Image,
+//   Wislist,
+// } from "../../assets/Header_user_section/asset_exporter.js";
 import {
   Bag,
   User_Image,
   Wislist,
-} from "../assets/Header_user_section/asset_exporter.js";
+} from "../../assets/Header_Ico/asset_exporter";
 function AccountUser() {
   return (
     <>

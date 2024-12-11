@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./CSS/Header.module.css";
+import styles from "../CSS/Header.module.css";
 import NavBar from "./NavBar";
 import SearchBar from "./SearchBar";
 import AccountUser from "./AccountUser";

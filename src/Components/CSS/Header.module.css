@@ -3,7 +3,6 @@
   min-height: 80px;
   align-items: center;
   justify-content: space-between;
-  /* -webkit-user-drag: none; */
 }
 
 .bg_image {
@@ -11,7 +10,7 @@
   width: 55px;
   margin-left: clamp(10px, 2vw, 60px);
   display: flex;
-  background-image: url("../../assets/Myntra_logo.PNG");
+  background-image: url("../../assets/Header_Ico/Myntra_logo.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,11 +19,15 @@
 /* logo sections ends here */
 /* ------------------------- */
 /* Navigation seciton start from here */
+.nav_container {
+  position: relative;
+  flex-grow: 3;
+}
 .navbar {
   height: fit-content;
   width: fit-content;
   min-width: 523px;
-  margin: 0px 15vw 0px 10px;
+  margin: 0px 02vw 0px 04vw;
 }
 .navbar ul {
   display: flex;
@@ -35,7 +38,7 @@
 }
 .navbar ul li a {
   /* padding: 0px 17px 28px; */
-  padding: 0px 1vw;
+  padding: 0px 0.9vw;
   text-decoration: none;
   color: #282c3f;
   font-weight: 700;
@@ -52,15 +55,14 @@
   width: fit-content;
   display: flex;
   align-items: center;
-  justify-content: end;
-  float: right;
-  margin-left: 10vw;
+  justify-content: center;
   background-color: #f5f5f6;
+  flex-grow: 1;
 }
 .search_section input {
   padding: 8px 10px 10px;
   height: 40px;
-  width: clamp(250px, 25vw, 600px);
+  width: clamp(400px, 20vw, 600px);
   font-size: 14px;
   border: none;
   outline: none;
@@ -71,7 +73,6 @@
   width: 14.7px;
   padding: 0px 10px;
   user-select: none;
-  /* -moz-window-dragging: flase; */
   -webkit-user-drag: none;
 }
 /* Search section end here */
@@ -84,7 +85,7 @@
   justify-content: space-around;
   position: relative;
   right: 0px;
-  margin: 0px 10px 0px 0px;
+  margin: 0px 1.5vw 0px 1.5vw;
 }
 .user_sections div {
   display: flex;

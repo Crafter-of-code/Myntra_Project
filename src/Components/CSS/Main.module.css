@@ -1,0 +1,57 @@
+/* This is the main container */
+.main {
+  width: 90vw;
+  height: fit-content;
+  /* background-color: #212121; */
+  margin: auto;
+}
+/* This is the first flat 500 off image container */
+.main div:nth-child(1) img {
+  width: 100%;
+  margin-top: 30px;
+}
+/* This is the second image container Price crash */
+.main div:nth-child(2) img,
+.main div:nth-child(4) img {
+  width: 100%;
+}
+
+/* This is the third div containing three image Associate sponsor Title sponsor and fitness sponsor */
+.main div:nth-child(3) {
+  /* margin-top: -2px; */
+  display: flex;
+}
+.main div:nth-child(3) div {
+  width: 35%;
+}
+.main div:nth-child(3) img {
+  margin: 0px;
+  width: 100%;
+  height: fit-content;
+}
+.shop_by_category {
+  margin: 0px;
+}
+.shop_by_category div:nth-child(1) {
+  width: 100%;
+  text-transform: uppercase;
+  margin: auto;
+}
+.shop_by_category > div:nth-child(1) img {
+  width: 100%;
+  margin: 0px auto;
+}
+.shop_by_category div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.shop_by_category div:nth-child(2) {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shop_by_category div:nth-child(2) img {
+  height: 400px;
+  width: 268px;
+  margin: 25px;
+  -webkit-user-drag: none;
+}

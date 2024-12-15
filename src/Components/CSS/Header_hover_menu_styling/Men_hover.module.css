@@ -1,0 +1,33 @@
+.cat_container {
+  /* margin: auto; */
+  display: flex;
+  position: relative;
+  top: 1rem;
+  left: 5rem;
+  /* min-width: 00px; */
+  /* width: clamp(1902px, 80vw, 1000px); */
+  width: fit-content;
+  max-width: 1255px;
+  justify-content: space-between;
+  height: fit-content;
+  background-color: white;
+  padding: 2rem 5rem;
+  /* min-width: inherit; */
+}
+.cat_container div:nth-child(even) {
+  background-color: rgb(251 251 251);
+  /* padding: 2rem; */
+}
+.cat_container > div {
+  padding: 2rem;
+}
+.cat_container h4 {
+  color: #ee5f73;
+}
+.cat_container div ul li {
+  list-style-type: none;
+}
+.cat_container div ul li a {
+  color: black;
+  text-decoration: none;
+}

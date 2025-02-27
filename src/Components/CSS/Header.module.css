@@ -70,16 +70,21 @@
   background-color: gray;
   position: fixed;
   min-width: 1092px;
-  /* display: none; */
+  display: none;
   width: 100vw;
+}
+.nav_container
+  ul
+  li:nth-child(1)
+  :first-child:hover
+  + .category_displayer_4_hover {
+  display: block;
 }
 .nav_container ul li:nth-child(1):hover {
   border-bottom: 4px solid #ee5f73;
   padding-top: 4px;
 }
-.nav_container ul li:nth-child(1):hover ~ .category_displayer_4_hover {
-  display: block;
-}
+
 .nav_container ul li:nth-child(2):hover {
   padding-top: 4px;
   border-bottom: 4px solid #fb56c1;
